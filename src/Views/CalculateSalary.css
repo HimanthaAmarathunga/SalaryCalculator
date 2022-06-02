@@ -1,0 +1,562 @@
+.CalculateSalaryContainer {
+  box-sizing: border-box;
+
+position: absolute;
+width: 680px;
+height: 614px;
+left: 12px;
+top: 160px;
+margin-left: 130px;
+
+/* Gray/50 */
+
+background: #FAFAFA;
+/* Color Usage/Stroke */
+
+border: 1px solid #E0E0E0;
+border-radius: 8px;
+}
+
+.ShowSalaryContainer {
+box-sizing: border-box;
+
+position: absolute;
+width: 480px;
+height: 614px;
+left: 830px;
+top: 160px;
+margin-left: 20px;
+
+/* Gray/White */
+
+background: #FFFFFF;
+/* Color Usage/Stroke */
+
+border: 1px solid #E0E0E0;
+border-radius: 8px;
+}
+
+.TableRowFieldNS {
+  box-sizing: border-box;
+  position: absolute;
+  width: 456px;
+  height: 56px;
+  left: 12px;
+  top: 233px;
+  
+  /* Gray/50 */
+  
+  background: #FAFAFA;
+  /* Color Usage/Stroke */
+  
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+}
+
+.SalaryInputs {
+  width: 380px;
+  height: 48px;
+  border-radius: 4px;
+  padding-left: 15px;
+  background-color: #FFFFFF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.SalaryInputsFields {
+  width: 550px;
+  margin-left: 30px;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.SalaryInputsFields2 {
+  width: 550px;
+  margin-left: 24px;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.SalaryInputsFields1 {
+  margin-left: 20px;
+  padding-top: 16px;
+}
+
+.SalaryLabels {
+  width: 120px;
+  height: 24px;
+  margin-top: 24px;
+  margin-right: 230px;
+  text-align: left;
+  /* margin-left: 40px; */
+  /* Body - Large - Semibold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+/* Color Usage/Text Primary */
+
+color: #000000;
+}
+
+.SalarySubLabels {
+  width: 217px;
+  height: 24px;
+  /* margin-top: 24px; */
+  margin-right: 140px;
+  text-align: start;
+  /* Body - Small */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-align: right;
+
+/* Color Usage/Text Secondary */
+
+color: #757575;
+
+}
+
+.FormGroup {
+  padding-right: 260px;
+}
+
+.checkbox {
+  margin-left: 10px;
+}
+
+hr {
+  width: 600px;
+  /* margin-right: 40px; */
+}
+
+.hr {
+  margin-left: 35px;
+}
+
+.Your-Salary-Sub-topic {
+  position: absolute;
+width: 39px;
+height: 20px;
+left: 32px;
+top: 81px;
+text-align: left;
+
+/* Body - Default - Semibold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+/* Color Usage/Text Secondary */
+
+color: #757575;
+}
+
+.Your-Salary-Sub-topic2 {
+  position: absolute;
+width: 300px;
+height: 20px;
+left: 32px;
+top: 302px;
+text-align: left;
+
+/* Body - Default - Semibold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+/* Color Usage/Text Secondary */
+
+color: #757575;
+}
+
+.Your-Salary-Sub-topic-right {
+  position: absolute;
+width: 39px;
+height: 20px;
+right: 32px;
+top: 81px;
+text-align: right;
+
+/* Body - Default - Semibold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+/* Color Usage/Text Secondary */
+
+color: #757575;
+}
+
+.Salary-topic-labels {
+position: absolute;
+width: 93px;
+height: 24px;
+left: 32px;
+top: 117px;
+text-align: left;
+
+/* Body - Large */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #000000;
+}
+
+.Salary-valuesBS {
+  position: absolute;
+width: 85px;
+height: 24px;
+right: 32px;
+top: 117px;
+
+/* Body - Large */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: right;
+
+/* Color Usage/Text Primary */
+
+color: #000000;
+}
+
+.Salary-valuesGE {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 32px;
+  margin-top: 77px;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: right;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+  
+}
+
+.Salary-valuesGD {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 32px;
+  margin-top: 77px;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: right;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+  
+}
+
+.Salary-valuesEPF {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 32px;
+  margin-top: 77px;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: right;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+}
+
+.Salary-valuesNS {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 20px;
+  margin-top: 18px;
+  text-align: right;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+color: #000000;
+}
+
+.Salary-valuesEEPF {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 32px;
+  margin-top: 170px;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: right;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+}
+
+.Salary-valuesEETF {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 32px;
+  margin-top: 170px;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: right;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+}
+
+.Salary-valuesCTC {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  right: 32px;
+  margin-top: 170px;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  text-align: right;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+}
+
+.Salary-topic-labels2 {
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  left: 32px;
+  padding-top: 77px;
+  text-align: left;
+  
+  /* Body - Large */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  
+  color: #000000;
+  }
+
+  .Salary-topic-labels3 {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 32px;
+    padding-top: 170px;
+    text-align: left;
+    
+    /* Body - Large */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #000000;
+    }
+
+  .Salary-topic-labelsNS {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 20px;
+    padding-top: 18px;
+    text-align: left;
+    
+    /* Body - Large */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.1px;
+    
+    color: #000000;
+    }
+
+  .TableRowField {
+    width: 100%;
+    height: 24px;
+
+  }
+
+ .CalcYourSal {
+  position: relative;
+  width: 200px;
+  height: 32px;
+  left: 40px;
+  top: 24px;
+  
+  /* heading 4 */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 32px; */
+  /* identical to box height, or 160% */
+  
+  letter-spacing: -0.022px;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+ }
+
+ .YourSal {
+  position: relative;
+  width: 110px;
+  height: 32px;
+  left: 32px;
+  top: 24px;
+  
+  /* heading 4 */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 32px; */
+  /* identical to box height, or 160% */
+  
+  letter-spacing: -0.022px;
+  
+  /* Color Usage/Text Primary */
+  
+  color: #000000;
+  
+ }
+
+ .btnReset {
+   margin-top: 26px;
+   margin-left: 170px;
+   text-decoration: none;
+ }
+
+ .buttonRemove {
+   margin-left: 15px;
+ }
+
+ .buttonAdd {
+   text-align: left;
+   margin-right: 460px;
+   margin-top: 18px;
+   text-decoration: none;
+ }
